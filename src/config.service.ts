@@ -14,8 +14,7 @@ export class ConfigService {
   configUrl = 'assets/config.json';
 
   getConfig() {
-    let id = "a1-91eff74d-009f-4600-98d7-e38a04b9681e";
-    return this.http.get<ConfigService>("/partner/api/v1/Student/" + id);
+    return this.http.get<ConfigService>("/registry/partner/api/v1/Student");
   }
 }
 
