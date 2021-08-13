@@ -11,7 +11,7 @@ function initializeKeycloak(keycloak: KeycloakService) {
   return () =>
     keycloak.init({
       config: {
-        url: 'http://ndear.xiv.in/auth',
+        url: 'https://ndear.xiv.in/auth',
         realm: 'ndear',
         clientId: 'learn-app'
       },
