@@ -11,8 +11,8 @@ function initializeKeycloak(keycloak: KeycloakService) {
   return () =>
     keycloak.init({
       config: {
-        url: 'https://ndear.xiv.in/auth',
-        realm: 'ndear',
+        url: 'https://demo-education-registry.xiv.in/auth',
+        realm: 'sunbird-rc',
         clientId: 'learn-app'
       },
       initOptions: {
