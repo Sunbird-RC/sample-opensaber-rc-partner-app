@@ -14,7 +14,7 @@ export class ConfigService {
   configUrl = 'assets/config.json';
 
   getConfig() {
-    return this.http.get<ConfigService>("/registry/api/v1/Student");
+    return this.http.get<ConfigService>("/registry/partner/api/v1/Student");
   }
 }
 
