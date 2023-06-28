@@ -1,14 +1,14 @@
 {
   "/auth": {
-    "target": "https://demo-education-registry.xiv.in",
+    "target": "https://demo-education-registry.sunbirdrc.dev",
     "secure": false
   },
   "/registry": {
-    "target": "https://demo-education-registry.xiv.in",
+    "target": "https://demo-education-registry.sunbirdrc.dev",
     "secure": false
   },
   "/api": {
-    "target": "https://demo-education-registry.xiv.in",
+    "target": "https://demo-education-registry.sunbirdrc.dev",
     "secure": false
   }
 }
